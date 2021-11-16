@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingVertical="55dp"
+    android:paddingHorizontal="16dp">
+
+    <EditText
+        android:id="@+id/tv_new_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:textColor="#403933"
+        android:textColorHint="#403933"
+        android:inputType="textMultiLine"
+        android:paddingStart="12dp"
+        android:background="@drawable/bg_tv"
+        android:hint="New Plan" />
+
+    <Button
+        android:id="@+id/btn_save_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_below="@+id/tv_new_plan"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/darker_gray" />
+
+
+</RelativeLayout>
